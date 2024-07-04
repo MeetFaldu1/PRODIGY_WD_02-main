@@ -1,0 +1,72 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f2f5;
+  min-height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.App-header {
+  background-color: #fff;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 2rem;
+  color: #555;
+  margin-bottom: 30px;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+button:not(:disabled):hover {
+  background-color: #007bff;
+  color: #fff;
+}
+
+button.start {
+  background-color: #28a745;
+  color: #fff;
+}
+
+button.stop {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+button.reset {
+  background-color: #ffc107;
+  color: #fff;
+}
